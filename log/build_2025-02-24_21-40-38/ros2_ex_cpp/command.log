@@ -1,0 +1,4 @@
+Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp
+Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp

@@ -1,0 +1,11 @@
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/uninstall.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/ros2_ex_cpp_uninstall.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/simple_publisher.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/simple_subscriber.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/test.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/edit_cache.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/rebuild_cache.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/list_install_components.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/install.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/install/local.dir
+/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp/CMakeFiles/install/strip.dir

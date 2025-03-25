@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+[0.052s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.287s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.319s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.330s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.430s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.555s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.663s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.681s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[0.681s]   The target name "ros2_ex_cpp/simple_publisger" is reserved or not valid for
+[0.681s]   certain CMake features, such as generator expressions, and may result in
+[0.681s]   undefined behavior.
+[0.682s] 
+[0.682s] [0m
+[0.682s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.682s]   ament_target_dependencies() the first argument must be a valid target name
+[0.682s] Call Stack (most recent call first):
+[0.682s]   CMakeLists.txt:13 (ament_target_dependencies)
+[0.682s] 
+[0.682s] [0m
+[0.682s] -- Configuring incomplete, errors occurred!
+[0.689s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.691s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8

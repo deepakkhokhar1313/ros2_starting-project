@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (ros2_ex_cpp) JobQueued: {'identifier': 'ros2_ex_cpp', 'dependencies': OrderedDict()}
+[0.000405] (ros2_ex_python) JobQueued: {'identifier': 'ros2_ex_python', 'dependencies': OrderedDict()}
+[0.000445] (ros2_ex_cpp) JobStarted: {'identifier': 'ros2_ex_cpp'}
+[0.004828] (ros2_ex_python) JobStarted: {'identifier': 'ros2_ex_python'}
+[0.011494] (ros2_ex_cpp) JobProgress: {'identifier': 'ros2_ex_cpp', 'progress': 'cmake'}
+[0.012239] (ros2_ex_cpp) JobProgress: {'identifier': 'ros2_ex_cpp', 'progress': 'build'}
+[0.012833] (ros2_ex_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', '--', '-j8', '-l8'], 'cwd': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'deepak-Predator-PH315-51', 'GIT_ASKPASS': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/Projects/ros2_workspace', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1b30d851-5896-495d-8986-0a934b258004.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock","/run/user/0/gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f7d216a6f7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.086889] (ros2_ex_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisger.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[0.099303] (-) TimerEvent: {}
+[0.199773] (-) TimerEvent: {}
+[0.300279] (-) TimerEvent: {}
+[0.400709] (-) TimerEvent: {}
+[0.475107] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:4:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra tokens at end of #include directive\n'}
+[0.475347] (ros2_ex_cpp) StderrLine: {'line': b'    4 | #include<chrono>\x1b[01;35m\x1b[K>\x1b[m\x1b[K\n'}
+[0.475481] (ros2_ex_cpp) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.500891] (-) TimerEvent: {}
+[0.601260] (-) TimerEvent: {}
+[0.701818] (-) TimerEvent: {}
+[0.804035] (-) TimerEvent: {}
+[0.904815] (-) TimerEvent: {}
+[1.005144] (-) TimerEvent: {}
+[1.105886] (-) TimerEvent: {}
+[1.206161] (-) TimerEvent: {}
+[1.234590] (ros2_ex_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_ex_python', 'build', '--build-base', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build', 'install', '--record', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'deepak-Predator-PH315-51', 'GIT_ASKPASS': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/Projects/ros2_workspace', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1b30d851-5896-495d-8986-0a934b258004.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock","/run/user/0/gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f7d216a6f7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python', 'PYTHONPATH': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.306294] (-) TimerEvent: {}
+[1.406601] (-) TimerEvent: {}
+[1.506859] (-) TimerEvent: {}
+[1.607154] (-) TimerEvent: {}
+[1.655772] (ros2_ex_python) StdoutLine: {'line': b'running egg_info\n'}
+[1.686322] (ros2_ex_python) StdoutLine: {'line': b'writing ../../build/ros2_ex_python/ros2_ex_python.egg-info/PKG-INFO\n'}
+[1.686651] (ros2_ex_python) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_ex_python/ros2_ex_python.egg-info/dependency_links.txt\n'}
+[1.686946] (ros2_ex_python) StdoutLine: {'line': b'writing entry points to ../../build/ros2_ex_python/ros2_ex_python.egg-info/entry_points.txt\n'}
+[1.687150] (ros2_ex_python) StdoutLine: {'line': b'writing requirements to ../../build/ros2_ex_python/ros2_ex_python.egg-info/requires.txt\n'}
+[1.687339] (ros2_ex_python) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_ex_python/ros2_ex_python.egg-info/top_level.txt\n'}
+[1.707261] (-) TimerEvent: {}
+[1.742947] (ros2_ex_python) StdoutLine: {'line': b"reading manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'\n"}
+[1.743852] (ros2_ex_python) StdoutLine: {'line': b"writing manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'\n"}
+[1.744058] (ros2_ex_python) StdoutLine: {'line': b'running build\n'}
+[1.744231] (ros2_ex_python) StdoutLine: {'line': b'running build_py\n'}
+[1.744451] (ros2_ex_python) StdoutLine: {'line': b'running install\n'}
+[1.753339] (ros2_ex_python) StdoutLine: {'line': b'running install_lib\n'}
+[1.786218] (ros2_ex_python) StdoutLine: {'line': b'running install_data\n'}
+[1.786667] (ros2_ex_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.807301] (-) TimerEvent: {}
+[1.818880] (ros2_ex_python) StdoutLine: {'line': b"removing '/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.819278] (ros2_ex_python) StdoutLine: {'line': b'Copying ../../build/ros2_ex_python/ros2_ex_python.egg-info to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info\n'}
+[1.820387] (ros2_ex_python) StdoutLine: {'line': b'running install_scripts\n'}
+[1.907396] (-) TimerEvent: {}
+[2.007684] (-) TimerEvent: {}
+[2.014794] (ros2_ex_python) StdoutLine: {'line': b'Installing simple_publisher script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python\n'}
+[2.015413] (ros2_ex_python) StdoutLine: {'line': b"writing list of installed files to '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log'\n"}
+[2.074044] (ros2_ex_python) CommandEnded: {'returncode': 0}
+[2.088632] (ros2_ex_python) JobEnded: {'identifier': 'ros2_ex_python', 'rc': 0}
+[2.107773] (-) TimerEvent: {}
+[2.208060] (-) TimerEvent: {}
+[2.308361] (-) TimerEvent: {}
+[2.408668] (-) TimerEvent: {}
+[2.508956] (-) TimerEvent: {}
+[2.609274] (-) TimerEvent: {}
+[2.709577] (-) TimerEvent: {}
+[2.809856] (-) TimerEvent: {}
+[2.910128] (-) TimerEvent: {}
+[3.010461] (-) TimerEvent: {}
+[3.110733] (-) TimerEvent: {}
+[3.211011] (-) TimerEvent: {}
+[3.311332] (-) TimerEvent: {}
+[3.411621] (-) TimerEvent: {}
+[3.511969] (-) TimerEvent: {}
+[3.612655] (-) TimerEvent: {}
+[3.713328] (-) TimerEvent: {}
+[3.813718] (-) TimerEvent: {}
+[3.914019] (-) TimerEvent: {}
+[4.014345] (-) TimerEvent: {}
+[4.114659] (-) TimerEvent: {}
+[4.215352] (-) TimerEvent: {}
+[4.316081] (-) TimerEvent: {}
+[4.416820] (-) TimerEvent: {}
+[4.517284] (-) TimerEvent: {}
+[4.617664] (-) TimerEvent: {}
+[4.718011] (-) TimerEvent: {}
+[4.818263] (-) TimerEvent: {}
+[4.918492] (-) TimerEvent: {}
+[5.018725] (-) TimerEvent: {}
+[5.118969] (-) TimerEvent: {}
+[5.219265] (-) TimerEvent: {}
+[5.319479] (-) TimerEvent: {}
+[5.419687] (-) TimerEvent: {}
+[5.519908] (-) TimerEvent: {}
+[5.620186] (-) TimerEvent: {}
+[5.720447] (-) TimerEvent: {}
+[5.798609] (ros2_ex_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_publisger\x1b[0m\n'}
+[5.820575] (-) TimerEvent: {}
+[5.920832] (-) TimerEvent: {}
+[6.021153] (-) TimerEvent: {}
+[6.065144] (ros2_ex_cpp) StdoutLine: {'line': b'[100%] Built target simple_publisger\n'}
+[6.077691] (ros2_ex_cpp) CommandEnded: {'returncode': 0}
+[6.077943] (ros2_ex_cpp) JobProgress: {'identifier': 'ros2_ex_cpp', 'progress': 'install'}
+[6.088727] (ros2_ex_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp'], 'cwd': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'deepak-Predator-PH315-51', 'GIT_ASKPASS': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/Projects/ros2_workspace', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1b30d851-5896-495d-8986-0a934b258004.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock","/run/user/0/gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f7d216a6f7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-af8cc5e2-7ac9-4d5f-b71c-985cf3fd1bfa.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.097994] (ros2_ex_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.098585] (ros2_ex_cpp) StdoutLine: {'line': b'-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/simple_publisger\n'}
+[6.100830] (ros2_ex_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/simple_publisger" to ""\n'}
+[6.100999] (ros2_ex_cpp) StdoutLine: {'line': b'-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_ex_cpp\n'}
+[6.101129] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_ex_cpp\n'}
+[6.101220] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.sh\n'}
+[6.101324] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.dsv\n'}
+[6.101536] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.sh\n'}
+[6.101621] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.dsv\n'}
+[6.101694] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.bash\n'}
+[6.101809] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.sh\n'}
+[6.101899] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.zsh\n'}
+[6.101969] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.dsv\n'}
+[6.102039] (ros2_ex_cpp) StdoutLine: {'line': b'-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.dsv\n'}
+[6.102107] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/packages/ros2_ex_cpp\n'}
+[6.102175] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig.cmake\n'}
+[6.102242] (ros2_ex_cpp) StdoutLine: {'line': b'-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig-version.cmake\n'}
+[6.102321] (ros2_ex_cpp) StdoutLine: {'line': b'-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.xml\n'}
+[6.103798] (ros2_ex_cpp) CommandEnded: {'returncode': 0}
+[6.119526] (ros2_ex_cpp) JobEnded: {'identifier': 'ros2_ex_cpp', 'rc': 0}
+[6.120244] (-) EventReactorShutdown: {}

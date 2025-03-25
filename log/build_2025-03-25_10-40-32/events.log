@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (ros2_ex_cpp) JobQueued: {'identifier': 'ros2_ex_cpp', 'dependencies': OrderedDict()}
+[0.000363] (ros2_ex_python) JobQueued: {'identifier': 'ros2_ex_python', 'dependencies': OrderedDict()}
+[0.000418] (ros2_ex_cpp) JobStarted: {'identifier': 'ros2_ex_cpp'}
+[0.011066] (ros2_ex_python) JobStarted: {'identifier': 'ros2_ex_python'}
+[0.016552] (ros2_ex_cpp) JobProgress: {'identifier': 'ros2_ex_cpp', 'progress': 'cmake'}
+[0.017983] (ros2_ex_cpp) JobProgress: {'identifier': 'ros2_ex_cpp', 'progress': 'build'}
+[0.018020] (ros2_ex_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', '--', '-j8', '-l8'], 'cwd': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'deepak-Predator-PH315-51', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/Projects/ros2_workspace/ros2_starting-project/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.049597] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099506] (-) TimerEvent: {}
+[0.199862] (-) TimerEvent: {}
+[0.280537] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.299994] (-) TimerEvent: {}
+[0.311473] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.321404] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.334618] (ros2_ex_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.349166] (ros2_ex_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400125] (-) TimerEvent: {}
+[0.418082] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.419502] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.496749] (ros2_ex_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500200] (-) TimerEvent: {}
+[0.582020] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.598064] (ros2_ex_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.600289] (-) TimerEvent: {}
+[0.697450] (ros2_ex_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.697669] (ros2_ex_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.697745] (ros2_ex_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.698209] (ros2_ex_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.699307] (ros2_ex_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.699460] (ros2_ex_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.699753] (ros2_ex_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.700356] (-) TimerEvent: {}
+[0.701150] (ros2_ex_cpp) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.720895] (ros2_ex_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.726963] (ros2_ex_cpp) StdoutLine: {'line': b'-- Build files have been written to: /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp\n'}
+[0.762660] (ros2_ex_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[0.772916] (ros2_ex_cpp) StdoutLine: {'line': b'[ 75%] Built target simple_publisher\n'}
+[0.800446] (-) TimerEvent: {}
+[0.900697] (-) TimerEvent: {}
+[0.907934] (ros2_ex_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_ex_python', 'build', '--build-base', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build', 'install', '--record', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'deepak-Predator-PH315-51', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/Projects/ros2_workspace/ros2_starting-project/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python', 'PYTHONPATH': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.000799] (-) TimerEvent: {}
+[1.086540] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:2:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msg/msg/string.hpp: No such file or directory\n'}
+[1.086785] (ros2_ex_cpp) StderrLine: {'line': b'    2 | #include\x1b[01;31m\x1b[K<std_msg/msg/string.hpp>\x1b[m\x1b[K\n'}
+[1.086904] (ros2_ex_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.087013] (ros2_ex_cpp) StderrLine: {'line': b'compilation terminated.\n'}
+[1.089855] (ros2_ex_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Error 1\n'}
+[1.090061] (ros2_ex_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2\n'}
+[1.090204] (ros2_ex_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.092240] (ros2_ex_cpp) CommandEnded: {'returncode': 2}
+[1.101242] (-) TimerEvent: {}
+[1.105102] (ros2_ex_cpp) JobEnded: {'identifier': 'ros2_ex_cpp', 'rc': 2}
+[1.201342] (-) TimerEvent: {}
+[1.242062] (ros2_ex_python) StdoutLine: {'line': b'running egg_info\n'}
+[1.262046] (ros2_ex_python) StdoutLine: {'line': b'writing ../../build/ros2_ex_python/ros2_ex_python.egg-info/PKG-INFO\n'}
+[1.262286] (ros2_ex_python) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_ex_python/ros2_ex_python.egg-info/dependency_links.txt\n'}
+[1.262513] (ros2_ex_python) StdoutLine: {'line': b'writing entry points to ../../build/ros2_ex_python/ros2_ex_python.egg-info/entry_points.txt\n'}
+[1.262691] (ros2_ex_python) StdoutLine: {'line': b'writing requirements to ../../build/ros2_ex_python/ros2_ex_python.egg-info/requires.txt\n'}
+[1.262862] (ros2_ex_python) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_ex_python/ros2_ex_python.egg-info/top_level.txt\n'}
+[1.301446] (-) TimerEvent: {}
+[1.307085] (ros2_ex_python) StdoutLine: {'line': b"reading manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'\n"}
+[1.308194] (ros2_ex_python) StdoutLine: {'line': b"writing manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'\n"}
+[1.308405] (ros2_ex_python) StdoutLine: {'line': b'running build\n'}
+[1.308547] (ros2_ex_python) StdoutLine: {'line': b'running build_py\n'}
+[1.308890] (ros2_ex_python) StdoutLine: {'line': b'running install\n'}
+[1.314745] (ros2_ex_python) StdoutLine: {'line': b'running install_lib\n'}
+[1.335585] (ros2_ex_python) StdoutLine: {'line': b'running install_data\n'}
+[1.335858] (ros2_ex_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.356759] (ros2_ex_python) StdoutLine: {'line': b"removing '/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.357142] (ros2_ex_python) StdoutLine: {'line': b'Copying ../../build/ros2_ex_python/ros2_ex_python.egg-info to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info\n'}
+[1.358184] (ros2_ex_python) StdoutLine: {'line': b'running install_scripts\n'}
+[1.401546] (-) TimerEvent: {}
+[1.498675] (ros2_ex_python) StdoutLine: {'line': b'Installing simple_publisher script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python\n'}
+[1.499017] (ros2_ex_python) StdoutLine: {'line': b'Installing simple_subscriber script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python\n'}
+[1.499370] (ros2_ex_python) StdoutLine: {'line': b"writing list of installed files to '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log'\n"}
+[1.501633] (-) TimerEvent: {}
+[1.533808] (ros2_ex_python) JobEnded: {'identifier': 'ros2_ex_python', 'rc': 'SIGINT'}
+[1.544803] (-) EventReactorShutdown: {}

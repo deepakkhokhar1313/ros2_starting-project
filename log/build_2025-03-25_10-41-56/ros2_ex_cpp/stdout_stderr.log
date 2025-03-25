@@ -1,0 +1,68 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[ 75%] Built target simple_publisher
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:4:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholder[m[K’ has not been declared
+    4 | using std::[01;31m[Kplaceholder[m[K:: _1;
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ does not name a type
+   13 |     void msgcallback(const [01;31m[Kstd_msg[m[K::msg::String &msg) const
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   13 |     void msgcallback(const std_msg::msg[01;31m[K::[m[KString &msg) const
+      |                                        [01;31m[K^~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   13 |     void msgcallback[34m[K([m[Kconst std_msg::msg[01;31m[K:[m[K[32m[K:[m[KString &msg) const
+      |                     [34m[K~[m[K                  [01;31m[K^[m[K[32m[K~[m[K
+      |                                        [32m[K)[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   13 |     void msgcallback(const std_msg::[01;31m[Kmsg[m[K::String &msg) const
+      |                                     [01;31m[K^~~[m[K
+      |                                        [32m[K;[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:42:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   13 |     void msgcallback(const std_msg::msg::[01;31m[KString[m[K &msg) const
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd_msgs[m[K’?
+   18 |     rclcpp::Subscription<[01;31m[Kstd_msg[m[K::msg::String>::SharedPtr sub_;
+      |                          [01;31m[K^~~~~~~[m[K
+      |                          [32m[Kstd_msgs[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |     rclcpp::Subscription<std_msg::msg::String[01;31m[K>[m[K::SharedPtr sub_;
+      |                                              [01;31m[K^[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |     rclcpp::Subscription<std_msg::msg::String>::[01;31m[KSharedPtr[m[K sub_;
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ does not name a type
+   18 |     rclcpp::Subscription<std_msg::msg::String>::SharedPtr [01;31m[Ksub_[m[K;
+      |                                                           [01;31m[K^~~~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:[m[K In constructor ‘[01m[KSimpleSubscriber::[01;32m[KSimpleSubscriber[m[K()[m[K’:
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   11 |         [01;31m[Ksub_[m[K = craete_subscription<std_msg::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, _1));
+      |         [01;31m[K^~~~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kcraete_subscription[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   11 |         sub_ = [01;31m[Kcraete_subscription[m[K<std_msg::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, _1));
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                [32m[Kcreate_subscription[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ has not been declared
+   11 |         sub_ = craete_subscription<[01;31m[Kstd_msg[m[K::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, _1));
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:58:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   11 |         sub_ = craete_subscription<std_msg::msg::String>([01;35m[K"chatter"[m[K,10, std::bind(&SimpleSubscriber::msgcallback, this, _1));
+      |                                                          [01;35m[K^~~~~~~~~[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:120:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   11 |         sub_ = craete_subscription<std_msg::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, [01;31m[K_1[m[K));
+      |                                                                                                                        [01;31m[K^~[m[K
+      |                                                                                                                        [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:1[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

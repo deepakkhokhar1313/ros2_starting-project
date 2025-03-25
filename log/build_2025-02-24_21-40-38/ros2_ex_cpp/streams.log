@@ -1,0 +1,46 @@
+[0.015s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+[0.044s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.287s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.321s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.333s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.432s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.506s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.590s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.606s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.705s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.705s] -- Configured cppcheck include dirs: 
+[0.705s] -- Configured cppcheck exclude dirs and/or files: 
+[0.706s] -- Added test 'lint_cmake' to check CMake code style
+[0.707s] -- Added test 'uncrustify' to check C / C++ code style
+[0.707s] -- Configured uncrustify additional arguments: 
+[0.708s] -- Added test 'xmllint' to check XML markup files
+[0.709s] -- Configuring done (0.7s)
+[0.723s] -- Generating done (0.0s)
+[0.727s] -- Build files have been written to: /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp
+[0.764s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[5.017s] [100%] [32m[1mLinking CXX executable simple_publisher[0m
+[5.209s] [100%] Built target simple_publisher
+[5.222s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+[5.235s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp
+[5.243s] -- Install configuration: ""
+[5.243s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/simple_publisher
+[5.245s] -- Set non-toolchain portion of runtime path of "/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/simple_publisher" to ""
+[5.245s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_ex_cpp
+[5.245s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_ex_cpp
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.sh
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.dsv
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.sh
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.dsv
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.bash
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.sh
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.zsh
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.dsv
+[5.246s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.dsv
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/packages/ros2_ex_cpp
+[5.246s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig.cmake
+[5.247s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig-version.cmake
+[5.247s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.xml
+[5.249s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp

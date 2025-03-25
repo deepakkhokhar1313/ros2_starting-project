@@ -1,0 +1,25 @@
+[0.988s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_python': PYTHONPATH=/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_ex_python build --build-base /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build install --record /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log --single-version-externally-managed install_data
+[1.285s] running egg_info
+[1.308s] writing ../../build/ros2_ex_python/ros2_ex_python.egg-info/PKG-INFO
+[1.308s] writing dependency_links to ../../build/ros2_ex_python/ros2_ex_python.egg-info/dependency_links.txt
+[1.308s] writing entry points to ../../build/ros2_ex_python/ros2_ex_python.egg-info/entry_points.txt
+[1.308s] writing requirements to ../../build/ros2_ex_python/ros2_ex_python.egg-info/requires.txt
+[1.308s] writing top-level names to ../../build/ros2_ex_python/ros2_ex_python.egg-info/top_level.txt
+[1.368s] reading manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'
+[1.369s] writing manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'
+[1.369s] running build
+[1.370s] running build_py
+[1.370s] copying ros2_ex_python/simple_publisher.py -> /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build/lib/ros2_ex_python
+[1.370s] running install
+[1.376s] running install_lib
+[1.401s] copying /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build/lib/ros2_ex_python/simple_publisher.py -> /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python
+[1.401s] byte-compiling /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python/simple_publisher.py to simple_publisher.cpython-312.pyc
+[1.402s] running install_data
+[1.402s] running install_egg_info
+[1.423s] removing '/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info' (and everything under it)
+[1.424s] Copying ../../build/ros2_ex_python/ros2_ex_python.egg-info to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info
+[1.425s] running install_scripts
+[1.570s] Installing simple_publisher script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python
+[1.571s] Installing simple_subscriber script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python
+[1.571s] writing list of installed files to '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log'
+[1.614s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_python' returned '0': PYTHONPATH=/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_ex_python build --build-base /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build install --record /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log --single-version-externally-managed install_data

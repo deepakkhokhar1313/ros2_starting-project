@@ -1,0 +1,17 @@
+[0.019s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisger.dir/src/simple_publisher.cpp.o[0m
+[0.439s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:4:17:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+[0.440s]     4 | #include<chrono>[01;35m[K>[m[K
+[0.440s]       |                 [01;35m[K^[m[K
+[2.645s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:29:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.645s]    29 | }
+[2.645s]       |  [01;31m[K^[m[K
+[2.645s]       |  [32m[K;[m[K
+[2.656s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:[m[K In member function ‘[01m[Kvoid SimplePublisher::[01;32m[Ktimercallback[m[K()[m[K’:
+[2.656s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:22:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpub_[m[K’
+[2.656s]    22 |             [01;31m[Kpub_[m[K->publish(message)
+[2.656s]       |             [01;31m[K^~~~[m[K
+[3.691s] gmake[2]: *** [CMakeFiles/simple_publisger.dir/build.make:76: CMakeFiles/simple_publisger.dir/src/simple_publisher.cpp.o] Error 1
+[3.691s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisger.dir/all] Error 2
+[3.691s] gmake: *** [Makefile:146: all] Error 2
+[3.694s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8

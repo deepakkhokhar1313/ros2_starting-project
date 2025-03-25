@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ros2_ex_python/ros2_ex_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_ex_python/ros2_ex_python.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_ex_python/ros2_ex_python.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_ex_python/ros2_ex_python.egg-info/requires.txt
+writing top-level names to ../../build/ros2_ex_python/ros2_ex_python.egg-info/top_level.txt
+reading manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_ex_python/simple_publisher.py -> /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build/lib/ros2_ex_python
+running install
+running install_lib
+copying /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build/lib/ros2_ex_python/simple_publisher.py -> /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python
+byte-compiling /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python/simple_publisher.py to simple_publisher.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ros2_ex_python/ros2_ex_python.egg-info to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info
+running install_scripts
+Installing simple_publisher script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python
+Installing simple_subscriber script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python
+writing list of installed files to '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log'

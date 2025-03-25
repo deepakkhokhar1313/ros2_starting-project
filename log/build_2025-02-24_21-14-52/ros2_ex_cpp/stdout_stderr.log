@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_publisger.dir/src/simple_publisher.cpp.o[0m
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:4:17:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+    4 | #include<chrono>[01;35m[K>[m[K
+      |                 [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable simple_publisger[0m
+[100%] Built target simple_publisger
+-- Install configuration: ""
+-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/simple_publisger
+-- Set non-toolchain portion of runtime path of "/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/simple_publisger" to ""
+-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_ex_cpp
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_ex_cpp
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.sh
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.dsv
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.bash
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.sh
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.zsh
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.dsv
+-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.dsv
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/packages/ros2_ex_cpp
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig.cmake
+-- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig-version.cmake
+-- Installing: /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.xml

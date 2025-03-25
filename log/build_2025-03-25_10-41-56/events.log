@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (ros2_ex_cpp) JobQueued: {'identifier': 'ros2_ex_cpp', 'dependencies': OrderedDict()}
+[0.000264] (ros2_ex_python) JobQueued: {'identifier': 'ros2_ex_python', 'dependencies': OrderedDict()}
+[0.000298] (ros2_ex_cpp) JobStarted: {'identifier': 'ros2_ex_cpp'}
+[0.009402] (ros2_ex_python) JobStarted: {'identifier': 'ros2_ex_python'}
+[0.019907] (ros2_ex_cpp) JobProgress: {'identifier': 'ros2_ex_cpp', 'progress': 'cmake'}
+[0.020626] (ros2_ex_cpp) JobProgress: {'identifier': 'ros2_ex_cpp', 'progress': 'build'}
+[0.021169] (ros2_ex_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', '--', '-j8', '-l8'], 'cwd': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'deepak-Predator-PH315-51', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/Projects/ros2_workspace/ros2_starting-project/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.079935] (ros2_ex_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[0.086659] (ros2_ex_cpp) StdoutLine: {'line': b'[ 75%] Built target simple_publisher\n'}
+[0.099466] (-) TimerEvent: {}
+[0.199724] (-) TimerEvent: {}
+[0.300020] (-) TimerEvent: {}
+[0.400346] (-) TimerEvent: {}
+[0.500662] (-) TimerEvent: {}
+[0.600914] (-) TimerEvent: {}
+[0.701167] (-) TimerEvent: {}
+[0.801456] (-) TimerEvent: {}
+[0.901703] (-) TimerEvent: {}
+[1.001982] (-) TimerEvent: {}
+[1.102250] (-) TimerEvent: {}
+[1.136002] (ros2_ex_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_ex_python', 'build', '--build-base', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/build', 'install', '--record', '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'deepak-Predator-PH315-51', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/Projects/ros2_workspace/ros2_starting-project/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python', 'PYTHONPATH': '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.202331] (-) TimerEvent: {}
+[1.302580] (-) TimerEvent: {}
+[1.402819] (-) TimerEvent: {}
+[1.473797] (ros2_ex_python) StdoutLine: {'line': b'running egg_info\n'}
+[1.500356] (ros2_ex_python) StdoutLine: {'line': b'writing ../../build/ros2_ex_python/ros2_ex_python.egg-info/PKG-INFO\n'}
+[1.500633] (ros2_ex_python) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_ex_python/ros2_ex_python.egg-info/dependency_links.txt\n'}
+[1.500825] (ros2_ex_python) StdoutLine: {'line': b'writing entry points to ../../build/ros2_ex_python/ros2_ex_python.egg-info/entry_points.txt\n'}
+[1.501007] (ros2_ex_python) StdoutLine: {'line': b'writing requirements to ../../build/ros2_ex_python/ros2_ex_python.egg-info/requires.txt\n'}
+[1.501154] (ros2_ex_python) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_ex_python/ros2_ex_python.egg-info/top_level.txt\n'}
+[1.502912] (-) TimerEvent: {}
+[1.552637] (ros2_ex_python) StdoutLine: {'line': b"reading manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'\n"}
+[1.553483] (ros2_ex_python) StdoutLine: {'line': b"writing manifest file '../../build/ros2_ex_python/ros2_ex_python.egg-info/SOURCES.txt'\n"}
+[1.553690] (ros2_ex_python) StdoutLine: {'line': b'running build\n'}
+[1.553817] (ros2_ex_python) StdoutLine: {'line': b'running build_py\n'}
+[1.554012] (ros2_ex_python) StdoutLine: {'line': b'running install\n'}
+[1.560809] (ros2_ex_python) StdoutLine: {'line': b'running install_lib\n'}
+[1.586987] (ros2_ex_python) StdoutLine: {'line': b'running install_data\n'}
+[1.587211] (ros2_ex_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.603002] (-) TimerEvent: {}
+[1.619390] (ros2_ex_python) StdoutLine: {'line': b"removing '/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.619708] (ros2_ex_python) StdoutLine: {'line': b'Copying ../../build/ros2_ex_python/ros2_ex_python.egg-info to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/python3.12/site-packages/ros2_ex_python-0.0.0-py3.12.egg-info\n'}
+[1.620724] (ros2_ex_python) StdoutLine: {'line': b'running install_scripts\n'}
+[1.703118] (-) TimerEvent: {}
+[1.798433] (ros2_ex_python) StdoutLine: {'line': b'Installing simple_publisher script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python\n'}
+[1.798941] (ros2_ex_python) StdoutLine: {'line': b'Installing simple_subscriber script to /Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_python/lib/ros2_ex_python\n'}
+[1.799702] (ros2_ex_python) StdoutLine: {'line': b"writing list of installed files to '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_python/install.log'\n"}
+[1.803265] (-) TimerEvent: {}
+[1.844773] (ros2_ex_python) CommandEnded: {'returncode': 0}
+[1.858127] (ros2_ex_python) JobEnded: {'identifier': 'ros2_ex_python', 'rc': 0}
+[1.903343] (-) TimerEvent: {}
+[2.003628] (-) TimerEvent: {}
+[2.103953] (-) TimerEvent: {}
+[2.204211] (-) TimerEvent: {}
+[2.304512] (-) TimerEvent: {}
+[2.404747] (-) TimerEvent: {}
+[2.505033] (-) TimerEvent: {}
+[2.605265] (-) TimerEvent: {}
+[2.705490] (-) TimerEvent: {}
+[2.722802] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:4:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholder\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.723004] (ros2_ex_cpp) StderrLine: {'line': b'    4 | using std::\x1b[01;31m\x1b[Kplaceholder\x1b[m\x1b[K:: _1;\n'}
+[2.723086] (ros2_ex_cpp) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.724534] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.724645] (ros2_ex_cpp) StderrLine: {'line': b'   13 |     void msgcallback(const \x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msg::String &msg) const\n'}
+[2.724718] (ros2_ex_cpp) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.724785] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.724852] (ros2_ex_cpp) StderrLine: {'line': b'   13 |     void msgcallback(const std_msg::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString &msg) const\n'}
+[2.724916] (ros2_ex_cpp) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.724978] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.725044] (ros2_ex_cpp) StderrLine: {'line': b'   13 |     void msgcallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msg::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString &msg) const\n'}
+[2.725110] (ros2_ex_cpp) StderrLine: {'line': b'      |                     \x1b[34m\x1b[K~\x1b[m\x1b[K                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[2.725180] (ros2_ex_cpp) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.731688] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.732191] (ros2_ex_cpp) StderrLine: {'line': b'   13 |     void msgcallback(const std_msg::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String &msg) const\n'}
+[2.732280] (ros2_ex_cpp) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.732350] (ros2_ex_cpp) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.734702] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:13:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.734958] (ros2_ex_cpp) StderrLine: {'line': b'   13 |     void msgcallback(const std_msg::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K &msg) const\n'}
+[2.735114] (ros2_ex_cpp) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.740699] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.740857] (ros2_ex_cpp) StderrLine: {'line': b'   18 |     rclcpp::Subscription<\x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msg::String>::SharedPtr sub_;\n'}
+[2.740931] (ros2_ex_cpp) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.741007] (ros2_ex_cpp) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kstd_msgs\x1b[m\x1b[K\n'}
+[2.741073] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.741138] (ros2_ex_cpp) StderrLine: {'line': b'   18 |     rclcpp::Subscription<std_msg::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr sub_;\n'}
+[2.741216] (ros2_ex_cpp) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.741284] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.741349] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[2.741413] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[2.741482] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.741548] (ros2_ex_cpp) StderrLine: {'line': b'   18 |     rclcpp::Subscription<std_msg::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K sub_;\n'}
+[2.741612] (ros2_ex_cpp) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.741676] (ros2_ex_cpp) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.741837] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:18:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.741951] (ros2_ex_cpp) StderrLine: {'line': b'   18 |     rclcpp::Subscription<std_msg::msg::String>::SharedPtr \x1b[01;31m\x1b[Ksub_\x1b[m\x1b[K;\n'}
+[2.742022] (ros2_ex_cpp) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.748022] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleSubscriber::\x1b[01;32m\x1b[KSimpleSubscriber\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.748421] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.748545] (ros2_ex_cpp) StderrLine: {'line': b'   11 |         \x1b[01;31m\x1b[Ksub_\x1b[m\x1b[K = craete_subscription<std_msg::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, _1));\n'}
+[2.748650] (ros2_ex_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.754258] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcraete_subscription\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.754419] (ros2_ex_cpp) StderrLine: {'line': b'   11 |         sub_ = \x1b[01;31m\x1b[Kcraete_subscription\x1b[m\x1b[K<std_msg::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, _1));\n'}
+[2.754503] (ros2_ex_cpp) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.754570] (ros2_ex_cpp) StderrLine: {'line': b'      |                \x1b[32m\x1b[Kcreate_subscription\x1b[m\x1b[K\n'}
+[2.754635] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.754701] (ros2_ex_cpp) StderrLine: {'line': b'   11 |         sub_ = craete_subscription<\x1b[01;31m\x1b[Kstd_msg\x1b[m\x1b[K::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, _1));\n'}
+[2.754770] (ros2_ex_cpp) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.754838] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[2.754988] (ros2_ex_cpp) StderrLine: {'line': b'   11 |         sub_ = craete_subscription<std_msg::msg::String>(\x1b[01;35m\x1b[K"chatter"\x1b[m\x1b[K,10, std::bind(&SimpleSubscriber::msgcallback, this, _1));\n'}
+[2.755089] (ros2_ex_cpp) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.755161] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:11:120:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.755247] (ros2_ex_cpp) StderrLine: {'line': b'   11 |         sub_ = craete_subscription<std_msg::msg::String>("chatter",10, std::bind(&SimpleSubscriber::msgcallback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[2.755316] (ros2_ex_cpp) StderrLine: {'line': b'      |                                                                                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.755380] (ros2_ex_cpp) StderrLine: {'line': b'      |                                                                                                                        \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[2.755443] (ros2_ex_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19\x1b[m\x1b[K,\n'}
+[2.755507] (ros2_ex_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[2.755569] (ros2_ex_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[2.755632] (ros2_ex_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[2.755699] (ros2_ex_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[2.755763] (ros2_ex_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/functional:294:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.755827] (ros2_ex_cpp) StderrLine: {'line': b'  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[2.755889] (ros2_ex_cpp) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.805616] (-) TimerEvent: {}
+[2.905903] (-) TimerEvent: {}
+[3.006141] (-) TimerEvent: {}
+[3.106465] (-) TimerEvent: {}
+[3.206743] (-) TimerEvent: {}
+[3.306993] (-) TimerEvent: {}
+[3.407272] (-) TimerEvent: {}
+[3.437194] (ros2_ex_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Error 1\n'}
+[3.437465] (ros2_ex_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2\n'}
+[3.437637] (ros2_ex_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.439616] (ros2_ex_cpp) CommandEnded: {'returncode': 2}
+[3.446352] (ros2_ex_cpp) JobEnded: {'identifier': 'ros2_ex_cpp', 'rc': 2}
+[3.458065] (-) EventReactorShutdown: {}

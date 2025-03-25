@@ -1,0 +1,39 @@
+[0.018s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+[0.049s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.294s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.327s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.443s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.445s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.607s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.627s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.733s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.733s] -- Configured cppcheck include dirs: 
+[0.733s] -- Configured cppcheck exclude dirs and/or files: 
+[0.734s] -- Added test 'lint_cmake' to check CMake code style
+[0.735s] -- Added test 'uncrustify' to check C / C++ code style
+[0.735s] -- Configured uncrustify additional arguments: 
+[0.736s] -- Added test 'xmllint' to check XML markup files
+[0.736s] -- Configuring done (0.7s)
+[0.751s] -- Generating done (0.0s)
+[0.755s] -- Build files have been written to: /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp
+[0.790s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisger.dir/src/simple_publisher.cpp.o[0m
+[1.220s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:4:17:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+[1.221s]     4 | #include<chrono>[01;35m[K>[m[K
+[1.221s]       |                 [01;35m[K^[m[K
+[3.127s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:29:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.127s]    29 | }
+[3.127s]       |  [01;31m[K^[m[K
+[3.127s]       |  [32m[K;[m[K
+[3.138s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:[m[K In member function ‘[01m[Kvoid SimplePublisher::[01;32m[Ktimercallback[m[K()[m[K’:
+[3.139s] [01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:21:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kto_sting[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kto_string[m[K’?
+[3.139s]    21 |             message.data = "Hello Ros 2 - counter: " + std::[01;31m[Kto_sting[m[K(counter_++)
+[3.139s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[3.139s]       |                                                             [32m[Kto_string[m[K
+[4.111s] gmake[2]: *** [CMakeFiles/simple_publisger.dir/build.make:76: CMakeFiles/simple_publisger.dir/src/simple_publisher.cpp.o] Error 1
+[4.111s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisger.dir/all] Error 2
+[4.111s] gmake: *** [Makefile:146: all] Error 2
+[4.113s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8

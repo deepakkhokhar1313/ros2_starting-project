@@ -1,0 +1,17 @@
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/ros2_ex_cpp/simple_publisher
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/lib/ros2_ex_cpp/simple_subscriber
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_ex_cpp
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_ex_cpp
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.sh
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/ament_prefix_path.dsv
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.sh
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/environment/path.dsv
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.bash
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.sh
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.zsh
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/local_setup.dsv
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.dsv
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ament_index/resource_index/packages/ros2_ex_cpp
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig.cmake
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/cmake/ros2_ex_cppConfig-version.cmake
+/Projects/ros2_workspace/ros2_starting-project/install/ros2_ex_cpp/share/ros2_ex_cpp/package.xml

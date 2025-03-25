@@ -1,0 +1,3 @@
+[console_scripts]
+simple_publisher = ros2_ex_python.simple_publisher:main
+simple_subscriber = ros2_ex_python.simple_subscriber:main

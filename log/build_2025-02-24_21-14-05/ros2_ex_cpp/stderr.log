@@ -1,0 +1,10 @@
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:4:17:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+    4 | #include<chrono>[01;35m[K>[m[K
+      |                 [01;35m[K^[m[K
+[01m[K/Projects/ros2_workspace/ros2_starting-project/src/ros2_ex_cpp/src/simple_publisher.cpp:29:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   29 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/simple_publisger.dir/build.make:76: CMakeFiles/simple_publisger.dir/src/simple_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisger.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

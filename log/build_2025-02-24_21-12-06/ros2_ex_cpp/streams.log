@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8
+[0.047s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.291s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.379s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.601s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.605s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.719s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.744s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.768s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.909s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.932s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.044s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.044s] -- Configured cppcheck include dirs: 
+[1.044s] -- Configured cppcheck exclude dirs and/or files: 
+[1.045s] -- Added test 'lint_cmake' to check CMake code style
+[1.047s] -- Added test 'uncrustify' to check C / C++ code style
+[1.047s] -- Configured uncrustify additional arguments: 
+[1.048s] -- Added test 'xmllint' to check XML markup files
+[1.050s] -- Configuring done (1.0s)
+[1.054s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[1.054s]   Cannot find source file:
+[1.054s] 
+[1.055s]     src/simple_publisger.cpp
+[1.055s] 
+[1.055s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.055s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.055s]   .f95 .f03 .hip .ispc
+[1.055s] 
+[1.055s] [0m
+[1.058s] [31mCMake Error at CMakeLists.txt:12 (add_executable):
+[1.058s]   No SOURCES given to target: simple_publisger
+[1.058s] 
+[1.058s] [0m
+[1.058s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.067s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.070s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/ros2_ex_cpp -- -j8 -l8

@@ -1,0 +1,38 @@
+[0.033s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/robot_description -- -j8 -l8
+[0.094s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.445s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.555s] -- Added test 'lint_cmake' to check CMake code style
+[0.557s] -- Added test 'xmllint' to check XML markup files
+[0.559s] -- Configuring done (0.5s)
+[0.566s] -- Generating done (0.0s)
+[0.568s] -- Build files have been written to: /Projects/ros2_workspace/ros2_starting-project/build/robot_description
+[0.592s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/robot_description -- -j8 -l8
+[0.593s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/robot_description
+[0.602s] -- Install configuration: ""
+[0.602s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes
+[0.602s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/gripper_left_palm.stl
+[0.602s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/link5.stl
+[0.603s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/link1.stl
+[0.606s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/gripper_right_palm.stl
+[0.606s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/link3.stl
+[0.608s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/link2.stl
+[0.609s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/plate.stl
+[0.610s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/meshes/link4.stl
+[0.611s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/urdf
+[0.611s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+[0.611s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.612s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.612s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.612s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.612s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/path.sh
+[0.612s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/path.dsv
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.bash
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.sh
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.zsh
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.dsv
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/package.dsv
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.613s] -- Up-to-date: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/package.xml
+[0.615s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/robot_description

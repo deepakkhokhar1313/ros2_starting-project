@@ -1,0 +1,42 @@
+[0.031s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /Projects/ros2_workspace/ros2_starting-project/src/robot_description -DCMAKE_INSTALL_PREFIX=/Projects/ros2_workspace/ros2_starting-project/install/robot_description
+[0.192s] -- The C compiler identification is GNU 13.3.0
+[0.269s] -- The CXX compiler identification is GNU 13.3.0
+[0.292s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.437s] -- Detecting C compile features
+[0.439s] -- Detecting C compile features - done
+[0.452s] -- Detecting CXX compiler ABI info
+[0.595s] -- Detecting CXX compiler ABI info - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.612s] -- Detecting CXX compile features
+[0.612s] -- Detecting CXX compile features - done
+[0.625s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.831s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.001s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.185s] -- Added test 'lint_cmake' to check CMake code style
+[1.187s] -- Added test 'xmllint' to check XML markup files
+[1.190s] -- Configuring done (1.1s)
+[1.194s] -- Generating done (0.0s)
+[1.196s] -- Build files have been written to: /Projects/ros2_workspace/ros2_starting-project/build/robot_description
+[1.201s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /Projects/ros2_workspace/ros2_starting-project/src/robot_description -DCMAKE_INSTALL_PREFIX=/Projects/ros2_workspace/ros2_starting-project/install/robot_description
+[1.202s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/robot_description -- -j8 -l8
+[1.254s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /Projects/ros2_workspace/ros2_starting-project/build/robot_description -- -j8 -l8
+[1.256s] Invoking command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/robot_description
+[1.267s] -- Install configuration: ""
+[1.267s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.268s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.268s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.268s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.268s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/path.sh
+[1.269s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/environment/path.dsv
+[1.269s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.bash
+[1.269s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.sh
+[1.269s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.zsh
+[1.269s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/local_setup.dsv
+[1.270s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/package.dsv
+[1.270s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.270s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.271s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.271s] -- Installing: /Projects/ros2_workspace/ros2_starting-project/install/robot_description/share/robot_description/package.xml
+[1.276s] Invoked command in '/Projects/ros2_workspace/ros2_starting-project/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /Projects/ros2_workspace/ros2_starting-project/build/robot_description
